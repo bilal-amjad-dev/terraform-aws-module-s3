@@ -13,5 +13,5 @@ provider "aws" {
 
 module "s3_bucket" {
   source = "./module/s3"
-  bucket_name = var.test_bucket_name # Corrected: Referencing the new root variable name
+  bucket_name = var.test_bucket_name 
 }
